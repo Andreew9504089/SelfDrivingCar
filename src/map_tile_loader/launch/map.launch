@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<launch>
+
+    <node name="map_publisher" pkg="map_tile_loader" type="map_publisher" output="screen">
+        <param name="map_path" type="string" value="/home/biomotion/nuscenes_maps" />
+        <param name="search_radius" type="float" value="50."/>
+    </node>
+
+
+</launch>
